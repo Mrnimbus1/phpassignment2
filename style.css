@@ -1,0 +1,35 @@
+body {
+    padding: 50px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.container h1,
+.container h3 {
+    text-align: center;
+}
+
+/* Style for the logout button */
+a.btn-logout {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4935dc; /* Red color */
+    border: 1px solid #5f35dc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a.btn-logout:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
